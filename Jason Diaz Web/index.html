@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason D's Web</title>
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <div class="navbar-title">
+            <h3 class="title-first-name">Jason D's</h3>
+            <h3 class="title-last-name">Web</h3>
+        </div>
+        <div>
+            <ul class="navbar-menu">
+                <li><a class="active" href="#" onclick="scrollToSection('content-body', event)">Home</a></li>
+                <li><a class="" href="#" onclick="scrollToSection('introduction', event)">About</a></li>
+                <li><a class="" href="#" onclick="scrollToSection('latest-works', event)">Gallery</a></li>
+                <li><a class="" href="#" onclick="scrollToSection('footer', event)">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-toggle">Social Media</button>
+            <div class="dropdown-menu">
+                <ul class="social-media">
+                    <li>
+                        <i class="fa-regular fa-envelope"></i>
+                        <a href="mailto:ziadjason03@gmail.com">Email</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook"></i>
+                        <a href="https://www.facebook.com/profile.php?id=100045226249696">Facebook</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-blogger"></i>
+                        <a href="https://jasond03.github.io/JasonD-sWeb/">Blogspot</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="content-body">
+        <div class="body-part-1">
+            <div class="developer-intro">
+                <p>Jason</p>
+                <p>Diaz</p>
+            </div>
+            <div class="body-title">
+                <h1>Student Wizard</h1>
+                <p>I'm a teachable Computer Science student who love to learn and gaining experiences,<br>and I love what I do.</p>
+                <a href="https://www.messenger.com/">LET'S CHAT!</a>
+            </div>
+            <div class="body-tail">
+                <h1>Learning</h1>
+                <p>to be<br>Developer</p>
+                <h1>Making</h1>
+                <p>School<br>Projects</p>
+            </div>
+        </div>
+        <div class="body-part-2">
+            <div class="background-circle">
+                <div class="hoodie-guy-animation-class">
+                    <div class="hoodie-guy"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="introduction">
+        <div class="introduction-container">
+          <div class="introduction-text">
+            <h2>👋 Hi, I’m Jason Diaz, 20 years of age a computer science student studying at NEMSU.</h2>
+            <p>Here’s a glimpse into my world:</p>
+          </div>
+          <div class="introduction-details">
+            <h4>I Studied at NEMSU 2nd year student major in Computer Science</h4>
+            <p>I’m passionate about my course and constantly seek to expand my knowledge. Whether it’s algorithms, programming languages, or software development, I’m all ears!</p>
+          </div>
+          <div class="introduction-hobbies">
+            <h4>Hobbies:</h4>
+            <p>
+              <li>Exploring Computer Science: I dive into the fascinating world of algorithms, data structures, and software design. Solving coding challenges? Count me in!</li>
+              <li>Fitness Enthusiast: When I’m not coding, you’ll find me at the gym, lifting weights, and staying active. Fitness keeps me energized!</li>
+              <li>Basketball: I’m a hoops fanatic. Whether it’s shooting hoops at the local court or watching NBA games, basketball is my jam.</li>
+              <li>Online Gaming: From epic RPGs to intense multiplayer battles, I love immersing myself in virtual worlds. Let’s team up and conquer!</li>
+            </p>
+          </div>
+        </div>
+      </section>      
+    <section id="latest-works">
+        <div class="left-project">
+            <div class="latest-work-title">
+                <h3>My Gallery</h3>
+            </div>
+
+            <div class="project-card project-card-1">
+                <div class="title">
+                    <h3>Family photo</h3>
+                    <div class="tech-stack">
+                        <p>Collection</p>
+                        <p>Making memories</p>
+                        <p>Photo</p>
+                    </div>
+                </div>
+                <img src="assets/Projects/project-1.jpeg" alt="Family photo" class="project-img-2">
+            </div>
+            <div class="project-card project-card-3">
+                <div class="title">
+                    <h3>Focus</h3>
+                    <div class="tech-stack">
+                        <p>Me</p>
+                        <p>Mirror shot</p>
+                    </div>
+                </div>
+                <img src="assets/Projects/project-3.jpg" alt="" class="project-img-3">
+            </div>
+        </div>
+        <div class="right-project">
+            <div class="project-card project-card-2">
+                <div class="title">
+                    <h3>Self</h3>
+                    <div class="tech-stack">
+                        <p>Collection</p>
+                        <p>Photo</p>
+                    </div>
+                </div>
+                <img src="assets/Projects/project-2.jpg" alt="" class="project-img-1">
+            </div>
+            <div class="project-card project-card-4">
+                <div class="title">
+                    <h3>Cousin's</h3>
+                    <div class="tech-stack">
+                        <p>Photo</p>
+                        <p>Makin memories</p>
+                    </div>
+                </div>
+                <img src="assets/Projects/project-4.jpg" alt="" class="project-img-4">
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer-left">
+            <h2>Let's make something amazing together</h2>
+
+            <div class="email-form">
+                <h2>Start by <span>saying hi</span></h2>
+                <input type="text" name="name" id="" placeholder="Your name">
+                <input type="email" name="email" id="" placeholder="Email Address">
+                <div>
+                    <input type="number" name="phone-number" id="" placeholder="Phone number">
+                    <button type="submit">Send</button>
+                </div>
+            </div>
+
+            <div class="footer-title">
+                <h3 class="title-first-name">Diaz</h3>
+                <h3 class="title-last-name">Jason Diaz</h3>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-email-intro">
+                <p>Information:</p>
+                <h6>San Agustin sur, Tandag city, SDS, Philippines</h6>
+                <h3>ziadjason03@gmail.com</h3>
+            </div>
+            <div class="footer-nav-menu">
+                <ul class="footer-menu">
+                    <li><a class="active" href="#" onclick="scrollToSection('content-body', event)">Home</a></li>
+                    <li><a class="" href="#" onclick="scrollToSection('introduction', event)">About</a></li>
+                    <li><a class="" href="#" onclick="scrollToSection('latest-works', event)">Gallery</a></li>
+                    <li><a class="" href="#" onclick="scrollToSection('footer', event)">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="mailto:ziadjason03@gmail.com" target="_blank">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100045226249696" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://jasond03.github.io/JasonD-sWeb/" target="_blank">
+                    <i class="fa-brands fa-blogger"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
